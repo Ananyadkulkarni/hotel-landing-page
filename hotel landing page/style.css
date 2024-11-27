@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0
+}
+.main{
+    width: 100%;
+    background-image: url(hotel\ main.jpg);
+    background-color: linear-gradient(rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%,);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    height: 70px;
+    float: left;
+}
+.logo{
+    color: rgb(238, 7, 134);
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    float: left;
+    padding-top: 50px;
+}
+.menu{
+    width: 400px;
+    height: 70px;
+    float: left;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px ;
+    margin-top: 72px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(247, 246, 245);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: rgb(238, 7, 134);
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+.srch{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid rgb(238, 7, 134) ;
+    margin-top: 50px;
+    color: aliceblue;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    margin-top: 50px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border: rgb(238, 7, 134);
+}
+.content{ 
+    width: 200px;
+    height:auto;
+    color: beige;
+    position:relative;
+    padding-top: 150px;
+
+}
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+.content h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9px;
+    letter-spacing: 2px;
+}
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background-color: rgb(238, 7, 134);
+    border: none;
+    font-size: 18px;
+    transition: .4s ease;
+}
+.content .cn .a{
+    text-decoration: none;
+}
+.cn:hover{
+    background-color:beige;
+}
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba (0,0,0,0.5)50%, rgba (0,0,0,0.5)50%);
+    position: absolute;
+    top: 200px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+    background-color:beige;
+    color: rgb(238, 7, 134);
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    color: beige;
+    background-color:rgb(238, 7, 134);
+    border-radius: 10px;
+    text-align: center;
+    margin: 2px;
+    padding: 18px;
+}
+.form input{
+    background-color: transparent;
+    border : 2px solid rgb(238, 7, 134);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 20px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.content .btn .a{
+    text-decoration: none;
+}
+.cn:hover{
+    background-color:beige;
+}
+.form a{
+    text-decoration: none;
+    background-color: rgb(238, 7, 134);
+    height: 40px;
+    color: beige;
+}
+.btnn:hover{
+    text-align: center;
+    background-color: rgb(238, 7, 134);
+    color: rgb(14, 14, 13);
+    font-weight: bold;
+}
+.form .link{
+    font-family:Arial, Helvetica, sans-;
+    font-size: 18px;
+    padding-top: 20px;
+    text-align: center;
+    background-color: none ;
+}
+.form .link a{
+    text-decoration: double;
+    background-color: none;
+}
+.liw{
+    text-align: center;
+}
